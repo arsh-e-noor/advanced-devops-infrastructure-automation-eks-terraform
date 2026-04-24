@@ -114,8 +114,8 @@ terraform apply
 ### 2. Containerization
 
 ```bash
-docker build -t <dockerhub-username>/blog-app .
-docker push <dockerhub-username>/blog-app
+docker build -t arshen00r/blog-app .
+docker push arshen00r/blog-app
 ```
 
 ---
@@ -192,7 +192,7 @@ The pipeline automates:
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Arsh E Noor**
 DevOps Engineer
 
 ---
