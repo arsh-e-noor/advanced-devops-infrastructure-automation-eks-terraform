@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: blog-app
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: blog-app
@@ -17,3 +17,10 @@ spec:
         image: arshen00r/blog-app:latest
         ports:
         - containerPort: 5000
+        resources:
+          requests:
+            cpu: "100m"
+            memory: "128Mi"
+          limits:
+            cpu: "200m"
+            memory: "256Mi"

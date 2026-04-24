@@ -20,3 +20,27 @@ Thumbs.db
 
 # Git
 .git/
+
+
+# Flask DB
+instance/
+*.db
+
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
